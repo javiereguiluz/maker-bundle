@@ -72,7 +72,7 @@ final class MakeSubscriber extends AbstractMaker
     {
         $subscriberClassNameDetails = $generator->createClassNameDetails(
             $input->getArgument('name'),
-            'EventSubscriber\\',
+            'Event\\Subscriber\\',
             'Subscriber'
         );
 
